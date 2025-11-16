@@ -1,6 +1,7 @@
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import ProductCarousel from './components/ProductCarousel';
 import ProductList from './components/ProductList';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <ProductCarousel />
       <ProductList />
       <Testimonials />
       <Contact />
