@@ -24,7 +24,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "vercel-build": "npm run prepare && next build"
   },
   "eslintConfig": {
     "extends": [
